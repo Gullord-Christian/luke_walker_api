@@ -17,9 +17,10 @@ const HeaderForm = () => {
             <form onSubmit={handleSubmit}>
                 <label>Search for:</label>
                 <select name="people" value={people} onChange={e=> setPeople(e.target.value)}>
-                    <option hidden>Choose planet or people</option>
+                    <option hidden></option>
                     <option>People</option>
                     <option>Planets</option>
+                    <option>Starships</option>
                 </select>
                 <label>Id: </label>
                 <input type="number" name="id" onChange={e => setId(e.target.value)}/>

@@ -15,6 +15,7 @@ const Planets = () => {
             console.log(err))
     }, [id])
 
+
     return (
     <fieldset>
         {
